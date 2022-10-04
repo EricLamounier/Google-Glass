@@ -1,0 +1,39 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+textarea {
+    width: 400px;
+    margin: auto;
+}
+
+input {
+    font-family: sans-serif;
+}
+
+input:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+fieldset {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-color: #c3c3c3;
+}
+
+legend {
+    background-color: rgba(173, 173, 173, 0.5);
+    border-radius: 10px;
+}
+
+#btn {
+    margin-left: 200px;
+    color: #0000b5
+}

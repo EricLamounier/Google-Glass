@@ -1,0 +1,435 @@
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+    font-family: Arial, Sans-Serif;
+}
+
+div#interface {
+    width: 900px;
+    margin: 0px auto 2px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgb(50, 50, 50);
+    padding: 30px;
+    border-radius: 10px;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+header#cabecalho img#icone {
+    position: relative;
+    left: 650px;
+    top: -130px;
+}
+
+header#cabecalho {
+
+    border-bottom: 2px solid #a4a4a4;
+    height: 150px;
+    background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 40px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .6);
+    padding: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho h2 {
+
+    font-family: Arial, Sans-Serif;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: -10px;
+}
+
+figure.foto-legenda {
+    border: 8px double rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+    position: relative;
+
+}
+
+figure.foto-legenda img {
+
+    width: 100%;
+}
+
+figure.foto-legenda figcaption {
+
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgb(0, 0, 0, .4);
+    color: white;
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+figcaption p {
+    text-align: center;
+}
+
+figure.foto-legenda:hover figcaption{
+
+    opacity: 1;
+}
+
+/*Formatacao do menu*/
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: -120px;
+    left: 370px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+    transition: 0.5s;
+}
+
+nav#menu a {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+}
+
+section#corpo {
+
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 2px solid #a4a4a4;
+    padding-right: 10px;
+
+}
+
+table#tabelaspec {
+    border-spacing: 0px;
+    margin: auto;
+}
+
+
+table#tabelaspec td {
+    border:1px solid #858585;
+    padding: 5px;
+}
+
+
+table#tabelaspec td.esq {
+    text-align: left;
+    padding: 3px;
+    background-color: #dcdcdc;
+    border: 2px solid #dcdcdc;
+    border-bottom: 2px solid #858585;
+   
+}
+
+table#tabelaspec td.dir {
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    background-color: #858585;
+}
+
+table#tabelaspec caption span#dataTabela1 {
+    display: block;
+    float: right;
+    color: rgb(61, 61, 61);
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+table#tabelaspec caption{
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(40, 40, 40);
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+    margin-right: 0px;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+aside#lateral h1 {
+    font-family: 'FonteLogo';
+    font-size: 20pt;
+    color:#606060;
+}
+
+aside#lateral h2 {
+    font-size: 20px;
+    color:#ffffff;
+    background-color: #595959;
+    padding: 5px;
+    margin: 10px;
+}
+
+footer#rodape {
+
+    clear: both;
+    margin-top: 30px;
+    border-top: 2px solid #a4a4a4;
+}
+
+footer#rodape p,a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0,0,0);   
+}
+
+footer#rodape a:hover {
+    color: blue;
+}
+
+article#noticia-principal h2 {
+
+    font-size: 20px;
+    color:#606060;
+    background-color: #d2d2d2;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+header#cabecalho-article h1 {
+    font-family: 'FonteLogo';
+    font-size: 20pt;
+    color:#606060;
+    background-color: white;
+    margin-bottom: -5px;
+}
+
+header#cabecalho-article h2 {
+    font-size: 13pt;
+    color:#858585;
+    background-color: white;
+    margin: 0px;
+}
+
+header#cabecalho-article h3 {
+    font-size: 12px;
+    color:#858585;
+    margin-bottom: 10px;
+}
+
+.atualizado1 {
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: -10px;
+}
+
+h2 {
+    border-radius: 5px;
+}
+
+#img-menu {
+
+    display: none;
+}
+
+/*Tentando uma responsividade forçada*/
+@media screen and (max-width: 450px) {
+    div#interface {
+        width: 400px;
+        padding-left: 5px;
+        padding-right: 10px;
+        margin-left: -5px;
+        margin-right: 5px;
+    }
+    
+    header#cabecalho h2 {
+        font-size: 10pt;
+        margin-left: 90px;
+    }
+
+    header#cabecalho h1 {
+        text-align: center;
+    }
+
+    header#cabecalho img#icone {
+        width: 100px;
+        position: relative;
+        left: 300px;
+        top: -10px;
+    }
+
+    h2 {
+        width: 320px;
+    }
+
+    section#corpo {
+
+        display: block;
+        width: 400px;
+        float: left;
+        border-right: white;
+        padding-right: 10px;
+    
+    }
+
+    aside#lateral {
+        margin-right: 0px;
+        width: 390px;
+        margin-bottom: 10px;
+    }
+
+    aside#lateral h2 {
+        font-size: 10px;
+        color:#ffffff;
+        background-color: #595959;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    footer#rodape {
+        width: 365px;
+    }
+
+    #img-menu:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 100px;
+    
+    }
+
+    #img-menu {
+        width: 40px;
+        display: block;
+        position: fixed;
+        top: 20px;
+        opacity: .8;
+        margin-bottom: -10px;
+        margin-left: 5px;
+        z-index: 2;
+        
+    }
+
+    nav#menu {
+        background-color: rgba(0, 0, 0, .7);
+        position: fixed;
+        top: 10px;
+        left: -500px;
+        width: 250px;
+        height: 100vh;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    nav#menu ul {
+        list-style: none;
+        text-transform: uppercase;
+        position: relative;
+        top: 0px;
+        left: -50px;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: none;
+        padding-top: 50px;
+    }
+
+    nav#menu li {
+        color: white;
+        display: block;
+        padding: 10px;
+        margin: 2px;
+        width: 100px;
+        background: none;
+        margin-left: 0px;
+        text-align: left;
+    }
+
+    nav#menu a{
+        display: block;
+        width: 250px;
+        margin-left: 10px;
+        margin-bottom: -5px;
+    }
+
+    nav#menu li:hover{
+        background-color: #acacac;
+        color: black;
+        text-align: center;
+        transition: 0.5s;
+        width: 230px;
+    }
+
+    input[type="checkbox"]:checked ~ nav {
+        transform: translateX(500px);
+        transition: 0.5s;
+    }
+
+    input[type="checkbox"]:not(checked) ~ nav {
+        transform: translateX(-500px);
+        transition: 1s;
+    }
+
+    #recentfilm {
+        width: 10px;
+    }
+    
+    #v1 {
+        position: relative;
+        width: 100px;
+        height: auto;
+    }
+}
+
+#recentfilm {
+    width: 350px;
+}
+
+#v1 {
+    position: relative;
+    width: 500px;
+}
